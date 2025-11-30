@@ -14,11 +14,9 @@ The DESFire library contains just the code (commands) needed for the tutorial bu
 
 I'm recommending two NFC readers, but please be aware that I read some negative comments on the "Red" PCB one - some seem to have design flaws.
 
-![Image 1](./images/pn532_blue_front_500w.png)
-![Image 2](./images/pn532_blue_back_500w.png)
+![Image 1](./images/pn532_blue_front_500w.png) ![Image 2](./images/pn532_blue_back_500w.png)
 
-![Image 3](./images/pn532_red_front_500h.png)
-![Image 4](./images/pn532_red_back_500h.png)
+![Image 3](./images/pn532_red_front_500h.png) ![Image 4](./images/pn532_red_back_500h.png)
 
 ### SPI interface
 
