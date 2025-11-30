@@ -3,7 +3,9 @@ The tutorial explains how to read a Credit Card on an ESP32 with a connected PN5
 
 This is the accompanying repository for my article "Read an EMV (Credit-) card with your ESP32 and PN532 NFC Reader" available here:
 
-![Image 6](./images/esp32_s3_dev_pn532_desfire_01_500h.png)
+![Image 6](./images/esp32_pn532_credit_card_reader_01_500h.png)
+
+![Image 6](./images/credit_card_ring_500w.png)
 
 ## Important notes about the code
 Please note: The sketch is just the tutorial code and does not contain any code for displaying any data on a TFT display ! 
@@ -51,31 +53,6 @@ To use the **SPI mode** you have to bring the switch in the right position:
 Adafruit_PN532 by Adafruit version 1.3.4 (https://github.com/adafruit/Adafruit-PN532)
 ````
 
-## Documents
-
-### NTAG424DNA documents
-data sheet Rev. 3.0 — 31 January 2019: https://www.nxp.com/docs/en/data-sheet/NT4H2421Gx.pdf (NT4H2421Gx_NTAG_424_DNA_data_sheet_rev_3_0_2019_01_31.pdf)
-
-Features and Hints Application note Rev. 2.0 — 4 March 2025: https://www.nxp.com/docs/en/application-note/AN12196.pdf (AN12196_NTAG424_Features_and_Hints_Rev_2_0_2025_03_04.pdf)
-
-### Mifare DESFire Light documents
-
-data sheet Rev. 3.3 — 5 April 2019: https://www.nxp.com/docs/en/data-sheet/MF2DLHX0.pdf (MF2DLHX0_MIFARE_DESFire_Light_data_sheet_rev_3_3_2019_04_05.pdf)
-
-Features and Hints Application note Rev. 1.1 — 20 January 2020: https://www.nxp.com/docs/en/application-note/AN12343.pdf (AN12343_MIFARE_DESFire_Light_Features_and_Hints_Rev_1_1_2020_01_20.pdf)
-
-### Mifare DESFire EV3 Short data sheet
-
-Short data sheet Rev. 3.1 — 11 January 2024: https://www.nxp.com/docs/en/data-sheet/MF3D_H_X3_SDS.pdf (MF3D_H_X3_SDS_MIFARE_DESFire_EV3_short_data_sheet_Rev_3_1_2024_01_11.pdf)
-
-### Additional documents
-
-Mifare DESFire protocol: https://raw.githubusercontent.com/revk/DESFireAES/master/DESFire.pdf (NXP_MIFARE_DESFire_EV1_Protocol.pdf)
-
-### AN12752_MIFARE_DESFire_EV3_feature_and_functionality_comparison
-
-MIFARE DESFire EV3 feature and functionality comparison to other MIFARE DESFire products Rev. 1.4 — 24 July 2023: https://www.nxp.com/docs/en/application-note/AN12752.pdf (AN12752_MIFARE_DESFire_EV3_feature_and_functionality_comparison_Rev_1_4_2023_07_24.pdf)
-
 ## Development Environment
 ````plaintext
 Arduino IDE Version 2.3.6 (Windows)
@@ -84,7 +61,7 @@ arduino-esp32 boards Version 3.2.0 (https://github.com/espressif/arduino-esp32)
 
 ## Implementations
 
-![Image 7](./images/esp32_1_9_display_pn532_desfire_01_500h.png)
+![Image 7](./images/esp32_pn532_credit_card_reader_03_500h.png)
 
 ## Log file of the complete tutorial workflow
 ````plaintext
@@ -92,4 +69,4 @@ ESP32 Adafruit PN532 DESFire Starter V02
 
 ````
 
-![Image 8](./images/esp32_s3_dev_pn532_desfire_02_500w.png)
+![Image 8](./images/esp32_pn532_credit_card_reader_04_500h.png)
