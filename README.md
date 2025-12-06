@@ -1,7 +1,7 @@
 # ESP32 Adafruit PN532 Read a Credit Card
 The tutorial explains how to read a Credit Card on an ESP32 with a connected PN5232 NFC reader.
 
-This is the accompanying repository for my article "Read an EMV (Credit-) card with your ESP32 and PN532 NFC Reader" available here:
+This is the accompanying repository for my article "**Read an EMV (Credit-) card with your ESP32 and PN532 NFC Reader**" available here: https://medium.com/@androidcrypto/read-an-emv-credit-card-with-your-esp32-and-pn532-nfc-reader-3166b9f03730
 
 ![Image 6](./images/esp32_pn532_credit_card_reader_01_500h.png)
 
